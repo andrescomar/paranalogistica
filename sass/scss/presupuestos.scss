@@ -1,0 +1,100 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+       .nav-link {
+        color: black;
+        font-size: 20px;
+       }
+       .nav-link:hover {
+        color: #EABE3F;  
+       }
+       .logo-principal {
+        min-width: 90px;
+        max-width: 110px;   
+       }
+       .icon-menu {
+        font-size: 35px;    
+       }
+       .icon-menu:hover {
+        color: #EABE3F ;
+       }
+  }
+    
+  #banner-empresa {
+    background-image: url(../css/img/banner3.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 400px;
+    color: white;
+    .container__texto {
+        h1 {
+            font-size: 50px;
+        }
+        .span-empresa {
+            color: #EABE3F ;
+        }
+        .col-md-3:hover {
+            color: #EABE3F;
+        }
+        .breadcrumb {
+            background-color: transparent;
+        }
+        .breadcrumb-item {
+            font-size: 20px;
+            color: white;
+        }
+    }
+  }
+
+#formulario {
+     height: 680px;
+     padding: 30px;
+     h2 {
+         text-align: center;
+         margin-top: 10px;
+         height: 70px;
+         color: #EABE3F;
+         font-size: 40px;
+     }
+     textarea {
+         height: 200px;
+     }
+  }    
+
+  #footer .container  {
+    height: 200px;
+    color: #EABE3F;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    h4 {
+        margin-top: 50px;
+    }  
+    .list-footer-item {
+        list-style-type: none;
+        color: white;
+        margin-top: 5px;
+        
+      }
+}
+
+.copyrigth {
+    p {
+        font-size: 18px;
+        color: #999999;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #footer { height: 400px;}
+   #formulario { 
+    height: 1480px;
+   }
+ }
+

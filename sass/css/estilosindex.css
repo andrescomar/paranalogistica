@@ -1,0 +1,158 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  h1 {
+    font-size: 66px;
+    font-weight: 600px;
+    line-height: 80px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  
+  .margin-cont {
+    padding: 40px;
+  }
+  
+  .topmargin-sm {
+    margin-top: 30px;
+  }
+  
+  .boton {
+    margin-top: 5px;
+  }
+  
+  .navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+  }
+  
+  .nav-link {
+    color: black;
+    font-size: 20px;
+  }
+  
+  .nav-link:hover {
+    color: #EABE3F;
+  }
+  
+  .logo-principal {
+    min-width: 90px;
+    max-width: 110px;
+  }
+  
+  .icon-menu {
+    font-size: 35px;
+  }
+  
+  .icon-menu:hover {
+    color: #EABE3F;
+  }
+  
+  #hero {
+    background-image: url(../css/img/fondo4.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+  } 
+  
+  #hero p {
+    color: white;
+    font-size: 20px;
+    
+  }
+  
+  .contenedor-texto {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+  }
+  
+  .letras-h1 {
+    color: #EABE3F;
+  }
+  
+  .paginas-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+  }
+  
+  .paginas-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+     transition: all 0.8s;
+  }
+  
+  .paginas-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+     transform: scale(1.2);
+  }
+  
+  .paginas-details {
+    position: absolute;
+    bottom: 70px;
+    left: 25px;
+    z-index: 9000;
+  }
+  
+  .paginas-details h2 {
+    margin-bottom: 0px;
+  }
+  
+  .paginas-details a h2, .paginas-details a p  {
+    color: white; 
+  }
+  
+  #preguntas h2 {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .preguntas-container .card .btn {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .preguntas-container .card .btn:hover {
+    color: #EABE3F;
+  }
+  
+  #footer .container {
+      color: #EABE3F;    
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;   
+  }
+  
+  .list-footer-item {
+    list-style-type: none;
+    color: white;
+    
+  }
+  
+  
+  @media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal;}
+  
+  }
+  

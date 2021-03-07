@@ -1,0 +1,133 @@
+
+
+/*VARIABLES*/
+$dorado: #EABE3F;
+$blanco: white;
+$negro: black;
+$gris: #999999;
+$ancho-min: 180px;
+$ancho-max: 55px;
+$relleno: 30px;
+$letras: 20px;
+
+/*CONDICIONALES*/
+$titulo: principal;
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: $blanco;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+       .nav-link {
+        color: $negro;
+        font-size: $letras;
+       }
+       .nav-link:hover {
+        color: $dorado;  
+       }
+       .logo-principal {
+        min-width: $ancho-min/2;
+        max-width: $ancho-max*2;   
+       }
+       .icon-menu {
+        font-size: $letras+15px;    
+       }
+       .icon-menu:hover {
+        color: $dorado ;
+       }
+  }
+    
+  #banner-empresa {
+    background-image: url(../css/img/banner3.jpg);
+    background-size: cover;
+    padding-top: $relleno*3;
+    min-height: 400px;
+    color: $blanco;
+    .container__texto {
+        h1 {
+            @if $titulo == principal {
+                font-size: 50px;
+            }@else if $titulo == subtitulo {
+                font-size: 40px ;
+            }@else if $titulo == lista {
+                font-size: 30px;
+            }
+        }
+        .span-empresa {
+            color: $dorado ;
+        }
+        .col-md-3:hover {
+            color:$dorado;
+        }
+        .breadcrumb {
+            background-color: transparent;
+        }
+        .breadcrumb-item {
+            font-size: $letras;
+            color: $blanco;
+        }
+    }
+  }
+
+ #contacto-1 {
+     padding: $relleno;
+  
+   .letras--1 {
+         color: $dorado;
+     }
+     h4 {
+         text-align: center;
+     }
+     .boton {
+         margin-top: 5px;
+     }
+ } 
+
+ #contacto-2 {
+     padding: $relleno;
+     .btn-primary {
+     -moz-transition: all 0.8s;
+     -webkit-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+    .btn-primary:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+     transform: scale(1.2);
+    }
+ }
+
+
+  #footer .container  {
+    height: 200px;
+    color: $dorado;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    h4 {
+        margin-top: 50px;
+    }  
+    .list-footer-item {
+        list-style-type: none;
+        color: $blanco;
+        margin-top: 5px;
+        
+      }
+}
+
+.copyrigth {
+    p {
+        font-size: 18px;
+        color: $gris;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #footer { height: 400px;}
+    .card { margin-bottom: 10px;}
+}

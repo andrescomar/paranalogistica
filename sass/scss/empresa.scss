@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+       .nav-link {
+        color: black;
+        font-size: 20px;
+       }
+       .nav-link:hover {
+        color: #EABE3F;  
+       }
+       .logo-principal {
+        min-width: 90px;
+        max-width: 110px;   
+       }
+       .icon-menu {
+        font-size: 35px;    
+       }
+       .icon-menu:hover {
+        color: #EABE3F ;
+       }
+  }
+    
+  #banner-empresa {
+    background-image: url(../css/img/banner3.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 400px;
+    color: white;
+    .container__texto {
+        h1 {
+            font-size: 50px;
+        }
+        .span-empresa {
+            color: #EABE3F ;
+        }
+        .col-md-3:hover {
+            color: #EABE3F;
+        }
+        .breadcrumb {
+            background-color: transparent;
+        }
+        .breadcrumb-item {
+            font-size: 20px;
+            color: white;
+        }
+    }
+  }
+ 
+ .historia-container  {
+         display: flex;
+         flex-direction: column;
+         .text__historia {
+             width: 100%;
+             padding: 30px;               
+         }
+         .text__historia .subtitulo--historia {
+             text-align: center;
+             font-size: 40px;
+             color: #EABE3F;
+         }
+     }
+
+.img__container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+    
+    h3 {
+        color: #999999;
+        text-align: center;
+    }
+  }     
+
+  #footer .container  {
+    height: 200px;
+    color: #EABE3F;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    h4 {
+        margin-top: 50px;
+    }  
+    .list-footer-item {
+        list-style-type: none;
+        color: white;
+        margin-top: 5px;
+        
+      }
+}
+
+.copyrigth {
+    p {
+        font-size: 18px;
+        color: #999999;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #footer { height: 400px;}
+ }
